@@ -1,0 +1,6 @@
+# Domains (Deep Scan)
+github.com
+awesome-
+github.io
+gitlab.com
+bitbucket.org

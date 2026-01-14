@@ -2,9 +2,8 @@ from core.expiredLinkHunter import ExpiredLinkHunter
 import os
 
 if __name__ == "__main__":
-    # depth=0: only the URLs in targets.txt
-    # depth=1: targets + one level of external hubs (e.g., GitHub Repos)
-    hunter = ExpiredLinkHunter(debug=False, max_depth=1)
+    # Example: filter for .de and .com domains
+    hunter = ExpiredLinkHunter(debug=True, max_depth=2, tld_filter=['de', 'com'])
 
     targets_file = "targets.txt"
 

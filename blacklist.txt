@@ -13,3 +13,6 @@ amazon.
 cloudflare.com
 tiktok.com
 github.com
+api.whatsapp.com
+t.me
+pinterest.com
